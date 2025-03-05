@@ -1,0 +1,24 @@
+.card {
+  box-shadow: 3px 3px 3px 3px grey;
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+
+  svg {
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+
+  h3{
+    position: absolute;
+    bottom: 25px;
+  }
+}
+
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+}

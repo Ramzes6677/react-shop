@@ -1,0 +1,50 @@
+@mixin mp-20 {
+  margin: 20px;
+  padding: 20px;
+}
+
+.cart-item-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 10px;
+  @include mp-20;
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item-title {
+  margin-left: 30px;
+}
+
+.cart-item-price {
+  margin-left: auto;
+}
+
+.cart-item-quantity {
+  margin-right: 100px;
+
+  span {
+    margin: 0 20px;
+  }
+
+  button {
+    width: 20px;
+  }
+}
+
+.total-price {
+  display: flex;
+  background-color: rgb(216, 216, 237);
+  border-radius: 10px;
+  margin-top: 50px;
+  @include mp-20;
+
+  h2 {
+    margin-left: auto;
+  }
+}

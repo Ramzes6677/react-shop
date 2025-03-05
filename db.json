@@ -1,0 +1,408 @@
+{
+  "products": [
+    {
+      "brand": "samsung",
+      "name": "Galaxy S23",
+      "price": 300,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61XyNdmvr6L._AC_SL1220_.jpg",
+      "id": 1
+    },
+    {
+      "brand": "apple",
+      "name": "Iphone 15 Pro",
+      "price": 400,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_SL1500_.jpg",
+      "id": 2
+    },
+    {
+      "brand": "apple",
+      "name": "Iphone 13",
+      "price": 334,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/516QZcrv+dL._AC_SL1000_.jpg",
+      "id": 3
+    },
+    {
+      "brand": "apple",
+      "name": "Iphone 12 Mini",
+      "price": 250,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51-ZD+JBZ7L._AC_SL1094_.jpg",
+      "id": 4
+    },
+    {
+      "brand": "hp",
+      "name": "Laptop",
+      "price": 171,
+      "category": "laptop",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_SL1500_.jpg",
+      "id": 5
+    },
+    {
+      "brand": "acer",
+      "name": "Aspire 3",
+      "price": 299,
+      "category": "laptop",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61gKkYQn6lL._AC_SL1500_.jpg",
+      "id": 6
+    },
+    {
+      "brand": "hp",
+      "name": "14 Laptop",
+      "price": 500,
+      "category": "laptop",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_SL1500_.jpg",
+      "id": 7
+    },
+    {
+      "brand": "hp",
+      "name": "Portable Laptop",
+      "price": 306,
+      "category": "laptop",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71pTP-ll4sL._AC_SL1500_.jpg",
+      "id": 8
+    },
+    {
+      "brand": "koorui",
+      "name": " 24-inch Computer Monitor",
+      "price": 79,
+      "category": "monitor",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71-+1aXsZjL._AC_SL1500_.jpg",
+      "id": 9
+    },
+    {
+      "brand": "sceptre ",
+      "name": "New 27-inch Gaming Monitor ",
+      "price": 99,
+      "category": "monitor",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71jdr9u9YhL._AC_SL1500_.jpg",
+      "id": 10
+    },
+    {
+      "brand": "samsung",
+      "name": "Essential S3",
+      "price": 119,
+      "category": "monitor",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61Qazt1iWcL._AC_SL1500_.jpg",
+      "id": 11
+    },
+    {
+      "brand": "samsung",
+      "name": "Galaxy A16",
+      "price": 174,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71KGkQ+KOKL._AC_SY300_SX300_.jpg",
+      "id": 12
+    },
+    {
+      "brand": "motorola",
+      "name": "Moto g34",
+      "price": 169,
+      "category": "phone",
+      "description": "Fascinating 120Hz display and Dolby Atmos. Watch movies and play games on the fast and smooth 6.53 display with multidimensional stereo sound in the background. 50MP Quad Pixel Camera System Capture crisp photos day and night with four times the sensitivity of light — and share your smile with the 16MP selfie camera.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71HAukUMUUL._AC_SL1500_.jpg",
+      "id": 13
+    },
+    {
+      "brand": "samsung",
+      "name": "Galaxy A05s",
+      "price": 109,
+      "category": "phone",
+      "description": "LONG LASTING BATTERY: Stay connected longer without having to constantly charge. High-definition display: display your content clearly. Elegant design: black finish, modern and refined. Dual SIM: Use two numbers in one device.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61nbkFg6rnL._AC_SL1407_.jpg",
+      "id": 14
+    },
+    {
+      "brand": "apple",
+      "name": "iPhone 15 (128GB) - Black",
+      "price": 739,
+      "category": "phone",
+      "description": "DYNAMIC ISLAND COMES ON THE IPHONE 15 – Dynamic Island brings clues and live activities forward – so you don't miss anything when you're doing something else. See who's calling, whether your flight is on time, and more. Innovative design - The iPhone 15 has a robust design made of dyed glass and aluminium. It is protected from water and dust. The ceramic shield front is harder than any smartphone glass. And the 6.1 inch Super Retina XDR display is up to 2x brighter in the sun than that of the iPhone 14.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61eEYLATF9L._AC_SL1500_.jpg",
+      "id": 15
+    },
+    {
+      "brand": "lenovo",
+      "name": "D27-45 Monitor",
+      "price": 89,
+      "category": "monitor",
+      "description": "High image quality: Enjoy crisp images and vivid colours on a high-resolution display that delivers an impressive visual experience.Fast refresh rate: Monitors with a high refresh rate ensure smooth movement and reduce motion blur, which is especially beneficial for gaming or video editing.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71dG5Ne2JzL._AC_SL1500_.jpg",
+      "id": 16
+    },
+    {
+      "brand": "lenovo",
+      "name": "Laptop 15.6 Inch Full HD",
+      "price": 309,
+      "category": "laptop",
+      "description": "The 15.6 inch Lenovo laptop is equipped with an Intel Celeron N5100 Quad Core 2.80 GHz processor, which provides enough power for office, home work and Internet. 16GB DDR4 Ram, FullHD display and a large 512GB SSD provides more than enough space for your data and applications. Features: only 1.8 kg, large 7h battery (plays e.g. 7h a YouTube video), 16 GB DDR4, webcam, HDMI, headphone jack, microphone, Bluetooth, USB 3.0",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51qC2ALoc8L._AC_.jpg",
+      "id": 17
+    },
+    {
+      "brand": "xiaomi",
+      "name": "Redmi Note 14 Pro+",
+      "price": 489,
+      "category": "phone",
+      "description": "200MP professional quality AI camera system: AI makes photography much more fun, easier and smarter, and improves the overall user experience. 120W HyperCharge with 5110mAh battery; 1.5K 120Hz eye care display, Corning Gorilla Glass Victus 2. Powerful and energy-efficient 4nm 5G processor, Snapdragon 7s Gen 3. IP68 dust and water resistance: robust structure against water and dust resistance. ",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51GYxAwRESL._AC_SL1000_.jpg",
+      "id": 18
+    },
+    {
+      "brand": "acer",
+      "name": "Chromebook 314",
+      "price": 179,
+      "category": "laptop",
+      "description": "Ready for any task: Chromebooks offer your favorite Google apps, worry-free security and speed you can rely on. Processor: Intel Celeron N4500 (1.10 GHz (up to 2.80 GHz turbo boost)) graphics card: Intel UHD Graphics hard drive: 128 GB eMMC working memory: 4 GB LPDDR4X RAM | NO WINDOWS. Connections: Displayport via USB Type-C, 2xUSB 3.2 (1x Type-A Gen 1; 1x Type-C Gen 1), Audio connection: 1x3.5mm headphone/speaker jack, supports headsets with integrated microphone Wireless: WLAN. ",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61fMylOpWeL._AC_SL1500_.jpg",
+      "id": 19
+    },
+    {
+      "brand": "lenovo",
+      "name": "L27i-4A",
+      "price": 97,
+      "category": "monitor",
+      "description": "High image quality: Enjoy crisp images and vivid colours on a high-resolution display that delivers an impressive visual experience. Fast refresh rate: Monitors with a high refresh rate ensure smooth movement and reduce motion blur, which is especially beneficial for gaming or video editing. Versatile connectivity: Modern monitors offer a variety of ports to make a hassle-free connection to computers, laptops and other devices.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/6164fgzVq2L._AC_SL1500_.jpg",
+      "id": 20
+    },
+    {
+      "brand": "aoc",
+      "name": "Gaming 27G15N ",
+      "price": 119,
+      "category": "monitor",
+      "description": "Flicker Free and Low Blue Light technology reduce eye fatigue while increasing visual comfort. The adaptive image synchronisation ensures streak-free images. Switch between the built-in presets for FPS, racing or RTS games or set and save your own ideal conditions.Short response time of 1 ms for crisp images and a smooth gaming experience. ",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71RAp98EJ8L._AC_SL1500_.jpg",
+      "id": 21
+    },
+    {
+      "brand": "honor",
+      "name": "Magic V3 Smartphone 5G",
+      "price": 1599,
+      "category": "phone",
+      "description": "Slim and light weight inward foldable smartphone: 9.2 mm thick when folded, 4.35 mm thick when unfolded and 226 g in weight, provides a more comfortable grip. Folded To Be Bar Phone. A tablet unfolded. With AI-enabled Magis OS 8.0, it becomes your most faithful office device, supporting a split screen for meetings and documents that allows easy switching and multitasking. 5150 mAh HONOR third generation silicon-carbon battery: 5150 mAh large battery that lasts all day. Faster charging with 66W HONOR SuperCharge (sold separately) and support for 50W Wireless HONOR SuperCharge.Reinforced durability: with a strength of over 2100 MPa, the HONOR Super Steel hinge can withstand 500,000 folds. 40x impact resistance with aerospace grade special fibres. 10x scratch and drop resistance with HONOR Anti-Scratch NanoCrystal Shield. Unimpressed by water with IPX8 water resistance, worry-free operation with wet hands or a 2.5 meter dive.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71nfzmEeZUL._AC_SX679_.jpg",
+      "id": 22
+    },
+    {
+      "brand": "sansui",
+      "name": "Monitor 24 inch",
+      "price": "72",
+      "category": "monitor",
+      "description": "Brightness: 250Nits; Color Gamut: sRGB 110%; Display Colors: 16.7M (8 bit); RTS/FPS/Game Assistance Interface: HDMI 1.4 & VGA Ports (HDMI Cable include); 75×75mm VESA Mount(No speakers and earphone jack) Ergonomic Design: V-shaped Saved Room Metal Stand, -5°~15°Tilt , 178°V/H Viewing Angle; Low Blue, Anti-Glare and Anti-Flicker Technology",
+      "rating": 1,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71HZcfwyonL._AC_SX679_.jpg",
+      "id": 23
+    }
+  ],
+  "favorites": [
+    {
+      "brand": "apple",
+      "name": "Iphone 12 Mini",
+      "price": 250,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/51-ZD+JBZ7L._AC_SL1094_.jpg",
+      "id": 4
+    },
+    {
+      "brand": "samsung",
+      "name": "Galaxy S23",
+      "price": 300,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61XyNdmvr6L._AC_SL1220_.jpg",
+      "id": 1
+    },
+    {
+      "brand": "hp",
+      "name": "Laptop",
+      "price": 171,
+      "category": "laptop",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_SL1500_.jpg",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "brand": "apple",
+      "name": "Iphone 15 Pro",
+      "price": 400,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61XO4bORHUL._AC_SL1500_.jpg",
+      "id": 2
+    },
+    {
+      "brand": "samsung",
+      "name": "Galaxy S23",
+      "price": 300,
+      "category": "phone",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61XyNdmvr6L._AC_SL1220_.jpg",
+      "id": 1
+    },
+    {
+      "brand": "hp",
+      "name": "14 Laptop",
+      "price": 500,
+      "category": "laptop",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 5,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/815uX7wkOZS._AC_SL1500_.jpg",
+      "id": 7
+    },
+    {
+      "brand": "sceptre ",
+      "name": "New 27-inch Gaming Monitor ",
+      "price": 99,
+      "category": "monitor",
+      "description": "A conscious alternative: The smartphones are made with partially recycled glass and PET film and come in a box with partially recycled paper and a paper-based protective film. Great night shots, great for sharing. Nightography AI thinks along to make your detailed photos and videos bright, clear and colourful from one sunset to the next. The 50 MP wide-angle camera works hand in hand with a powerful processor, allowing you to quickly create a high resolution photo from many individual images. Combined with Detail Enhancer technology, you can create photos that you can zoom in to discover more. If quitting is not an option. This powerful processor is just right for you. Experience stunning video streaming and gaming with plenty of battery endurance that is sure to get you through long days. No more today? Why should you? Play and stream with a long-lasting and fast charging battery.",
+      "rating": 4,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/71jdr9u9YhL._AC_SL1500_.jpg",
+      "id": 10
+    }
+  ],
+  "comments": [
+    {
+      "userName": "Ramzes",
+      "text": "First comment test",
+      "productID": "11",
+      "date": "20.02.2025, 23:08:34",
+      "id": 1
+    },
+    {
+      "userName": "Ramzes",
+      "text": "second comment",
+      "productID": "11",
+      "date": "20.02.2025, 23:10:03",
+      "id": 2
+    },
+    {
+      "userName": "3232",
+      "text": "323233",
+      "productID": "1",
+      "date": "21.02.2025, 12:20:37",
+      "id": 3
+    },
+    {
+      "userName": "Ivan",
+      "text": "Very good monitor. Recomended:)",
+      "productID": "11",
+      "date": "21.02.2025, 13:13:37",
+      "id": 4
+    },
+    {
+      "userName": "Ivan",
+      "text": "Very good monitor. Recomended:)",
+      "productID": "11",
+      "date": "21.02.2025, 13:15:14",
+      "id": 5
+    },
+    {
+      "userName": "fdfdf",
+      "text": "fdfdfdf",
+      "productID": "11",
+      "date": "21.02.2025, 13:16:09",
+      "id": 6
+    },
+    {
+      "userName": "Ramzes",
+      "text": "pavuk",
+      "productID": 1,
+      "date": "22.02.2025, 23:39:52",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "login": "ramzesmehtiev@yandex.ru",
+      "password": "fdfdfsdfds",
+      "userName": "fsdfsdfsdfsd",
+      "phoneNumber": "fsdfsdfsdfsdf",
+      "id": 1
+    }
+  ],
+  "brands": [
+    "samsung",
+    "apple",
+    "hp",
+    "honor",
+    "acer",
+    "aoc",
+    "sansui",
+    "lenovo"
+  ]
+}
