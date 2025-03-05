@@ -1,28 +1,28 @@
-import { Button, Form, Input} from "antd";
-import { useEffect, useState } from "react";
-import { useAppDispatch, useAppSelector } from "../../reduxHooks";
-import { login, registration } from "./slices";
-import { Link } from "react-router";
+import { Button, Form, Input } from 'antd'
+import { useEffect, useState } from 'react'
+import { useAppDispatch, useAppSelector } from '../../reduxHooks'
+import { login, registration } from './slices'
+import { Link } from 'react-router'
 
 type UserFormType = {
-  userName: string;
-  login: string;
-  password: string;
-  phoneNumber: string;
-};
+  userName: string
+  login: string
+  password: string
+  phoneNumber: string
+}
 
 export const Login = ({ closeModal }: { closeModal: () => void }) => {
-  const [openRegistration, setOpenRegistration] = useState(false);
-  const { user, error } = useAppSelector((state) => state.registration);
+  const [openRegistration, setOpenRegistration] = useState(false)
+  const { user, error } = useAppSelector((state) => state.registration)
 
   useEffect(() => {
     if (
-      error === "Пользователь с таким логином или телефоном уже зарегистрирован"
+      error === 'Пользователь с таким логином или телефоном уже зарегистрирован'
     ) {
-      setOpenRegistration(false);
-      form.resetFields();
+      setOpenRegistration(false)
+      form.resetFields()
     }
-  }, [error]);
+  }, [error])
 
   // useEffect(() => {
   //   if (user) {
@@ -30,26 +30,26 @@ export const Login = ({ closeModal }: { closeModal: () => void }) => {
   //   }
   // }, [user]);
 
-  const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch()
 
-  const [form] = Form.useForm();
+  const [form] = Form.useForm()
 
   const handleFinish = async (values: UserFormType) => {
     if (values.phoneNumber) {
-      dispatch(registration(values));
-      return;
+      dispatch(registration(values))
+      return
     }
-    dispatch(login(values));
-  };
+    dispatch(login(values))
+  }
 
   return (
-    <div style={{ marginTop: "30px" }}>
-      <p style={{ marginBottom: "10px", color: "red", fontSize: "14px" }}>
+    <div style={{ marginTop: '30px' }}>
+      <p style={{ marginBottom: '10px', color: 'red', fontSize: '14px' }}>
         {error}
       </p>
       {user ? (
         <>
-          <p style={{ marginBottom: "10px", color: "green", fontSize: "14px" }}>
+          <p style={{ marginBottom: '10px', color: 'green', fontSize: '14px' }}>
             {user.userName}, вы успешно авторизовались
           </p>
           <Link to="/admin">Перейти на страницу администратора</Link>
@@ -62,7 +62,7 @@ export const Login = ({ closeModal }: { closeModal: () => void }) => {
               {
                 required: true,
                 min: 5,
-                message: "Количество символов должно быть больше пяти",
+                message: 'Количество символов должно быть больше пяти',
               },
             ]}
           >
@@ -74,7 +74,7 @@ export const Login = ({ closeModal }: { closeModal: () => void }) => {
               {
                 required: true,
                 min: 8,
-                message: "Ненадежный пароль",
+                message: 'Ненадежный пароль',
               },
             ]}
           >
@@ -88,7 +88,7 @@ export const Login = ({ closeModal }: { closeModal: () => void }) => {
                   {
                     required: true,
                     min: 1,
-                    message: "Введите имя",
+                    message: 'Введите имя',
                   },
                 ]}
               >
@@ -100,11 +100,11 @@ export const Login = ({ closeModal }: { closeModal: () => void }) => {
             </>
           )}
           <Button htmlType="submit">
-            {openRegistration ? "Зарегистрироваться" : "Войти"}
+            {openRegistration ? 'Зарегистрироваться' : 'Войти'}
           </Button>
           {!openRegistration && (
             <Button
-              style={{ marginLeft: "10px" }}
+              style={{ marginLeft: '10px' }}
               type="primary"
               onClick={() => setOpenRegistration(true)}
             >
@@ -114,5 +114,5 @@ export const Login = ({ closeModal }: { closeModal: () => void }) => {
         </Form>
       )}
     </div>
-  );
-};
+  )
+}

@@ -1,32 +1,32 @@
-import { Button, Input, Form } from "antd";
-import "./index.scss";
-import { useEffect } from "react";
-import { useAppDispatch, useAppSelector } from "../../../reduxHooks";
-import { createComment, loadComments } from "../slices";
+import { Button, Input, Form } from 'antd'
+import './index.scss'
+import { useEffect } from 'react'
+import { useAppDispatch, useAppSelector } from '../../../reduxHooks'
+import { createComment, loadComments } from '../slices'
 
 type CommentFormType = {
-  userName: string;
-  text: string;
-};
+  userName: string
+  text: string
+}
 
 export default function ProductComments({ productID }: { productID: number }) {
-  const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch()
 
-  const { comments } = useAppSelector((state) => state.product);
+  const { comments } = useAppSelector((state) => state.product)
 
-  const [form] = Form.useForm();
+  const [form] = Form.useForm()
 
   const handleFinish = (values: CommentFormType) => {
     dispatch(
       createComment({ ...values, productID, date: new Date().toLocaleString() })
-    );
+    )
 
-    form.resetFields();
-  };
+    form.resetFields()
+  }
 
   useEffect(() => {
-    dispatch(loadComments(productID));
-  }, [productID]);
+    dispatch(loadComments(productID))
+  }, [productID])
 
   return (
     <div className="product-page-comments">
@@ -53,5 +53,5 @@ export default function ProductComments({ productID }: { productID: number }) {
         ))}
       </div>
     </div>
-  );
+  )
 }

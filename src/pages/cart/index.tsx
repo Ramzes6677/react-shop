@@ -1,22 +1,22 @@
-import { useAppDispatch, useAppSelector } from "../../reduxHooks";
-import ButtonBack from "../../components/buttonBack";
-import CartItem from "./CartItem";
-import { useEffect } from "react";
-import { getCart } from "./slices";
+import { useAppDispatch, useAppSelector } from '../../reduxHooks'
+import ButtonBack from '../../components/buttonBack'
+import CartItem from './CartItem'
+import { useEffect } from 'react'
+import { getCart } from './slices'
 
 export default function CartPage() {
-  const dispatch = useAppDispatch();
-  
-  useEffect(() => {
-    dispatch(getCart());
-  }, []);
+  const dispatch = useAppDispatch()
 
-  const cartProducts = useAppSelector((state) => state.cart.cart);
+  useEffect(() => {
+    dispatch(getCart())
+  }, [])
+
+  const cartProducts = useAppSelector((state) => state.cart.cart)
 
   const totalPrice = cartProducts.reduce(
     (acc, product) => acc + product.quantity * product.price,
     0
-  );
+  )
 
   return (
     <div>
@@ -35,5 +35,5 @@ export default function CartPage() {
       </div>
       <ButtonBack />
     </div>
-  );
+  )
 }

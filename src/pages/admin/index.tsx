@@ -1,18 +1,18 @@
-import { Button, Form, Input, message, Select } from "antd";
-import { useAppDispatch } from "../../reduxHooks";
-import { ProductType } from "../../types";
-import { AddProduct } from "../main/slices";
-import ButtonBack from "../../components/buttonBack";
+import { Button, Form, Input, message, Select } from 'antd'
+import { useAppDispatch } from '../../reduxHooks'
+import { ProductType } from '../../types'
+import { AddProduct } from '../main/slices'
+import ButtonBack from '../../components/buttonBack'
 
 export const AdminPage = () => {
-  const dispatch = useAppDispatch();
-  const [form] = Form.useForm();
+  const dispatch = useAppDispatch()
+  const [form] = Form.useForm()
 
   const handleFinish = (values: ProductType) => {
-    dispatch(AddProduct(values));
-    form.resetFields();
-    message.success("Товар добавлен");
-  };
+    dispatch(AddProduct(values))
+    form.resetFields()
+    message.success('Товар добавлен')
+  }
 
   return (
     <>
@@ -29,7 +29,7 @@ export const AdminPage = () => {
             name="brand"
             label="Брэнд"
             required
-            rules={[{ required: true, message: "Обязательное поле" }]}
+            rules={[{ required: true, message: 'Обязательное поле' }]}
           >
             <Input></Input>
           </Form.Item>
@@ -37,7 +37,7 @@ export const AdminPage = () => {
             name="name"
             label="Название"
             required
-            rules={[{ required: true, message: "Обязательное поле" }]}
+            rules={[{ required: true, message: 'Обязательное поле' }]}
           >
             <Input></Input>
           </Form.Item>
@@ -46,7 +46,7 @@ export const AdminPage = () => {
             name="price"
             label="Цена в долларах"
             required
-            rules={[{ required: true, message: "Обязательное поле" }]}
+            rules={[{ required: true, message: 'Обязательное поле' }]}
           >
             <Input></Input>
           </Form.Item>
@@ -54,13 +54,13 @@ export const AdminPage = () => {
             name="category"
             label="Категория"
             required
-            rules={[{ required: true, message: "Обязательное поле" }]}
+            rules={[{ required: true, message: 'Обязательное поле' }]}
           >
             <Select
               options={[
-                { value: "laptop", label: "ноутбук" },
-                { value: "phone", label: "телефон" },
-                { value: "monitor", label: "монитор" },
+                { value: 'laptop', label: 'ноутбук' },
+                { value: 'phone', label: 'телефон' },
+                { value: 'monitor', label: 'монитор' },
               ]}
             ></Select>
           </Form.Item>
@@ -69,7 +69,7 @@ export const AdminPage = () => {
             name="description"
             label="Описание"
             required
-            rules={[{ required: true, message: "Обязательное поле" }]}
+            rules={[{ required: true, message: 'Обязательное поле' }]}
           >
             <Input.TextArea></Input.TextArea>
           </Form.Item>
@@ -89,7 +89,7 @@ export const AdminPage = () => {
             name="img"
             label="Ссылка на фото"
             required
-            rules={[{ required: true, message: "Обязательное поле" }]}
+            rules={[{ required: true, message: 'Обязательное поле' }]}
           >
             <Input></Input>
           </Form.Item>
@@ -99,5 +99,5 @@ export const AdminPage = () => {
       </div>
       <ButtonBack />
     </>
-  );
-};
+  )
+}

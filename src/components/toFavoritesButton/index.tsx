@@ -1,36 +1,34 @@
-import { useAppDispatch, useAppSelector } from "../../reduxHooks";
-import { deletefavorites, addfavorites } from "../../pages/favorites/slices";
-import { HeartFilled, HeartOutlined } from "@ant-design/icons";
-import { ProductType } from "../../types";
+import { useAppDispatch, useAppSelector } from '../../reduxHooks'
+import { deletefavorites, addfavorites } from '../../pages/favorites/slices'
+import { HeartFilled, HeartOutlined } from '@ant-design/icons'
+import { ProductType } from '../../types'
 
 export default function TofavoritesButton({
   product,
 }: {
-  product: ProductType;
+  product: ProductType
 }) {
-  const { favorites } = useAppSelector((state) => state.favorites);
+  const { favorites } = useAppSelector((state) => state.favorites)
 
-  const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch()
 
   const addTofavorites = () => {
     if (favorites.some((el) => el.id === product.id)) {
-      dispatch(deletefavorites(product));
+      dispatch(deletefavorites(product))
     } else {
-      dispatch(addfavorites(product));
+      dispatch(addfavorites(product))
     }
-  };
+  }
 
-  const isfavorite = favorites.some((item) => item.id === product.id);
+  const isfavorite = favorites.some((item) => item.id === product.id)
 
   return (
     <div onClick={addTofavorites}>
       {isfavorite ? (
-        <HeartFilled
-          style={{ fontSize: "40px", color: "rgb(248, 16, 75)" }}
-        />
+        <HeartFilled style={{ fontSize: '40px', color: 'rgb(248, 16, 75)' }} />
       ) : (
-        <HeartOutlined style={{ fontSize: "40px", color: "#c7c7c7" }} />
+        <HeartOutlined style={{ fontSize: '40px', color: '#c7c7c7' }} />
       )}
     </div>
-  );
+  )
 }

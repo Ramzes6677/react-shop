@@ -1,17 +1,17 @@
-import { Card } from "../../components/productCard";
-import { useAppDispatch, useAppSelector } from "../../reduxHooks";
-import ButtonBack from "../../components/buttonBack";
-import { useEffect } from "react";
-import { getfavorites } from "./slices";
+import { Card } from '../../components/productCard'
+import { useAppDispatch, useAppSelector } from '../../reduxHooks'
+import ButtonBack from '../../components/buttonBack'
+import { useEffect } from 'react'
+import { getfavorites } from './slices'
 
 export default function favoritePage() {
-  const dispatch = useAppDispatch();
+  const dispatch = useAppDispatch()
 
   useEffect(() => {
-    dispatch(getfavorites());
-  }, []);
+    dispatch(getfavorites())
+  }, [])
 
-  const favorites = useAppSelector((state) => state.favorites.favorites);
+  const favorites = useAppSelector((state) => state.favorites.favorites)
   return (
     <div>
       {favorites.length ? (
@@ -25,5 +25,5 @@ export default function favoritePage() {
       )}
       <ButtonBack />
     </div>
-  );
+  )
 }

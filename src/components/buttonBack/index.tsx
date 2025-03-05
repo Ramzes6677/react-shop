@@ -1,5 +1,5 @@
-import { Link } from "react-router";
-import "./index.scss";
+import { Link } from 'react-router'
+import './index.scss'
 
 export default function ButtonBack() {
   return (
@@ -8,5 +8,5 @@ export default function ButtonBack() {
         <div>Back</div>
       </Link>
     </div>
-  );
+  )
 }

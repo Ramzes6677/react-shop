@@ -1,16 +1,16 @@
-import { Link } from "react-router";
-import TofavoritesButton from "../toFavoritesButton";
-import ToCartButton from "../toCartButton";
-import "./index.scss";
-import { memo } from "react";
-import { ProductType } from "../../types";
+import { Link } from 'react-router'
+import TofavoritesButton from '../toFavoritesButton'
+import ToCartButton from '../toCartButton'
+import './index.scss'
+import { memo } from 'react'
+import { ProductType } from '../../types'
 
 type Props = {
-  product: ProductType;
-};
+  product: ProductType
+}
 
 export const Card = memo(({ product }: Props) => {
-  const { img, brand, name, rating, price, id } = product;
+  const { img, brand, name, rating, price, id } = product
 
   return (
     <div className="card">
@@ -21,10 +21,10 @@ export const Card = memo(({ product }: Props) => {
         <Link to={`/product/${id}`}>
           <div>
             <div>
-              {brand.charAt(0).toUpperCase()+brand.slice(1)} {name}
+              {brand.charAt(0).toUpperCase() + brand.slice(1)} {name}
             </div>
-            <div style={{ marginTop: "10px" }}> Rating: {rating}</div>
-            <h3 style={{ marginTop: "40px" }}>${price}</h3>
+            <div style={{ marginTop: '10px' }}> Rating: {rating}</div>
+            <h3 style={{ marginTop: '40px' }}>${price}</h3>
           </div>
         </Link>
 
@@ -34,5 +34,5 @@ export const Card = memo(({ product }: Props) => {
         </div>
       </div>
     </div>
-  );
-});
+  )
+})
