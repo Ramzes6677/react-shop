@@ -3,14 +3,13 @@ import './index.scss'
 import { debounce } from 'lodash'
 import { SearchParamsProps } from '../../types'
 import { Form } from 'antd'
-import { useGetPostsQuery } from '../../services/apiSlice'
+import { useGetBrandsQuery } from '../../services/brandsApiSlice'
 
 export default function Navbar({
   handleChangeFilters,
   searchParams,
 }: SearchParamsProps) {
-  const { data: brands, error, isLoading } = useGetPostsQuery()
-
+  const { data: brands, error, isLoading } = useGetBrandsQuery()
   const selectedCategory = searchParams.get('category')
 
   const debouncedHandlerPrice = debounce(

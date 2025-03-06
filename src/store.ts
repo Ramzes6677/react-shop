@@ -4,7 +4,7 @@ import productsReducer from './pages/main/slices'
 import cartReducer from './pages/cart/slices'
 import productReducer from './pages/product/slices'
 import registrationReducer from './components/login/slices'
-import { apiSlice } from './services/apiSlice'
+import { brandsApi } from './services/brandsApiSlice'
 import { setupListeners } from '@reduxjs/toolkit/query'
 
 export const store = configureStore({
@@ -14,10 +14,10 @@ export const store = configureStore({
     cart: cartReducer,
     product: productReducer,
     registration: registrationReducer,
-    [apiSlice.reducerPath]: apiSlice.reducer,
+    [brandsApi.reducerPath]: brandsApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(apiSlice.middleware),
+    getDefaultMiddleware().concat(brandsApi.middleware),
 })
 setupListeners(store.dispatch)
 
